@@ -1,0 +1,66 @@
+body > header{
+	background-color: #8B0000;
+	color: white;
+}
+
+
+
+
+#cabecalho  h1 {
+	font-family:sans-serif;
+	letter-spacing: 35px;
+	text-align: center;
+	color:white;
+
+	
+}
+#cabecalho  p {
+	padding-bottom: 10px;
+   	text-align: center;
+}
+body{
+	margin-top: 0;
+	margin-left: 25%
+	margin-right:25%;
+	font-weight: normal;
+
+}
+nav {
+ 
+   position: static;
+   border: 3px solid #8B0000;
+   color: white;
+   text-align: center;
+ 
+}
+a:link {
+	color: black;
+	text-align: center;
+	border-bottom: 0.5px dashed;
+	text-decoration: none;
+}
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+h1 > a {
+	border-bottom: 0.5px dashed;
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+}
+
+
+footer > p > a {
+	text-align: center;
+	border-bottom: dotted 0.5px;
+	color: blue;
+}
